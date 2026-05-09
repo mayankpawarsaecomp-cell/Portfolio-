@@ -4,7 +4,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { MagicButton } from "@/components/ui/magic-button";
-import { links } from "@/config";
 
 export const Hero = () => {
   return (
@@ -28,8 +27,6 @@ export const Hero = () => {
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
 
-          <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100"></h2>
-
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User Experiences"
@@ -39,7 +36,7 @@ export const Hero = () => {
             Hi, I&apos;m Mayank Pawar, a Full Stack Developer based in India.
           </p>
 
-          {/* BUTTONS SECTION */}
+          {/* BUTTONS */}
           <div className="flex flex-col items-center gap-4 md:flex-row md:mt-10">
 
             {/* Show Work */}
@@ -53,7 +50,7 @@ export const Hero = () => {
             </Link>
 
             {/* Download Resume */}
-            <a href="//Mayank_Pawar_Resume.pdf.pdf" download>
+            <a href="/Mayank_Pawar_Resume.pdf" download>
               <MagicButton
                 title="Download Resume"
                 icon={<FaLocationArrow />}
@@ -63,14 +60,18 @@ export const Hero = () => {
             </a>
 
             {/* View Resume */}
-            {/* <a href="/Mayank_Pawar_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/Mayank_Pawar_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MagicButton
                 title="View Resume"
                 icon={<FaLocationArrow />}
                 position="right"
                 asChild
               />
-            </a> */}
+            </a>
 
           </div>
 

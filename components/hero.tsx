@@ -17,7 +17,10 @@ export const Hero = () => {
           className="left-full top-10 h-[80vh] w-[50vw]"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight
+          className="left-80 top-28 h-[80vh] w-[50vw]"
+          fill="blue"
+        />
       </div>
 
       <div className="absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-black-100 dark:bg-grid-white/[0.03]">
@@ -45,22 +48,25 @@ export const Hero = () => {
                 title="Show my work"
                 icon={<FaLocationArrow />}
                 position="right"
-                asChild
               />
             </Link>
 
-            {/* Download Resume
-            <a href="/Mayank_Pawar_Resume.pdf" download>
+            {/* Download Resume */}
+            <a
+              href="/Mayank_Pawar_Resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MagicButton
                 title="Download Resume"
                 icon={<FaLocationArrow />}
                 position="right"
-                asChild
               />
             </a>
 
             {/* View Resume */}
-            {/* <a
+            <a
               href="/Mayank_Pawar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -69,9 +75,8 @@ export const Hero = () => {
                 title="View Resume"
                 icon={<FaLocationArrow />}
                 position="right"
-                asChild
               />
-            </a> */} */
+            </a>
 
           </div>
 

@@ -115,7 +115,7 @@ export const projects = [
     des: "A full-stack platform that streamlines campus recruitment by connecting students with recruiters for job postings and applications.",
     img: "/A5.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://portfolio-mayankpawar.netlify.app/",
+    link: "https://portfolio-zws1.vercel.app/",
     sourceCode: "https://github.com/mayankpawarsaecomp-cell/Portfolio-",
   },
 ] as const;

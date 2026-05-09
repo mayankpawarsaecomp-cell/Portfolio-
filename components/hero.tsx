@@ -49,7 +49,7 @@ export const Hero = () => {
               />
             </Link>
 
-            {/* Download Resume */}
+            {/* Download Resume
             <a href="/Mayank_Pawar_Resume.pdf" download>
               <MagicButton
                 title="Download Resume"
@@ -60,7 +60,7 @@ export const Hero = () => {
             </a>
 
             {/* View Resume */}
-            <a
+            {/* <a
               href="/Mayank_Pawar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export const Hero = () => {
                 position="right"
                 asChild
               />
-            </a>
+            </a> */} */
 
           </div>
 

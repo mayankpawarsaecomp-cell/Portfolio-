@@ -53,7 +53,7 @@ export const Hero = () => {
 
             {/* Download Resume */}
             <a
-              href="/Mayank_Pawar_Resume.pdf"
+              href="/Mayank_Resume_2026.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -67,7 +67,7 @@ export const Hero = () => {
 
             {/* View Resume */}
             <a
-              href="/Mayank_Pawar_Resume.pdf"
+              href="/Mayank_Resume_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
